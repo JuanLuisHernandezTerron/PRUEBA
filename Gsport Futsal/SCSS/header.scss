@@ -1,0 +1,75 @@
+header{
+    background-color: rgba(129, 127, 127, 0.918);
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index:9999;
+}
+
+.img-logo{
+    transition: transform .2s;
+    width: 30%;
+}
+
+.img-logo:hover{
+    transform: scale(0.9);
+}
+
+
+
+/*----------div---------------*/
+
+$divs:(1: 1px solid red, 2:1px solid red, 3:1px solid red, 4:1px solid red,5: 1px solid red, 6:1px solid red);
+
+@each $e,$u in $divs {
+    .div-#{$e}{
+        transition: transform .10s;
+        font-size: 18px;
+        color: black;
+    }
+}
+/*----------TABLET--------------------*/
+@media screen and (min-width: 767px){
+    .img-logo{
+        transition: transform .2s;
+        width: 20%;
+    }
+
+@each $e,$u in $divs {
+    .div-#{$e}{
+        font-size: 18px;
+    }
+}
+
+/*------------ORDENADOR---------------*/
+
+@media screen and (min-width: 992px){
+    .img-logo{
+        transition: transform .2s;
+        width: 30%;
+    }
+
+    @each $e,$u in $divs {
+            .div-#{$e}{
+                font-size: 15px;
+            }
+        }
+    }
+
+    @each $e,$u in $divs {
+        .div-#{$e}{
+            transition: transform .10s;
+            font-size: 1.4rem;
+            color: black;
+        }
+    
+        .div-#{$e}:hover{
+            border-bottom: #{$u};
+            color: white;
+            transform: scale(0.8);
+            -webkit-transition: all 0.3s;
+        }
+    }
+}

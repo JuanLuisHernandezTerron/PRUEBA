@@ -1,0 +1,422 @@
+header {
+  background-color: rgba(129, 127, 127, 0.918);
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.img-logo {
+  transition: transform 0.2s;
+  width: 30%;
+}
+
+.img-logo:hover {
+  transform: scale(0.9);
+}
+
+/*----------div---------------*/
+.div-1 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+.div-2 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+.div-3 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+.div-4 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+.div-5 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+.div-6 {
+  transition: transform 0.1s;
+  font-size: 18px;
+  color: black;
+}
+
+/*----------TABLET--------------------*/
+@media screen and (min-width: 767px) {
+  .img-logo {
+    transition: transform 0.2s;
+    width: 20%;
+  }
+
+  .div-1 {
+    font-size: 18px;
+  }
+
+  .div-2 {
+    font-size: 18px;
+  }
+
+  .div-3 {
+    font-size: 18px;
+  }
+
+  .div-4 {
+    font-size: 18px;
+  }
+
+  .div-5 {
+    font-size: 18px;
+  }
+
+  .div-6 {
+    font-size: 18px;
+  }
+
+  /*------------ORDENADOR---------------*/
+}
+@media screen and (min-width: 767px) and (min-width: 992px) {
+  .img-logo {
+    transition: transform 0.2s;
+    width: 30%;
+  }
+
+  .div-1 {
+    font-size: 15px;
+  }
+
+  .div-2 {
+    font-size: 15px;
+  }
+
+  .div-3 {
+    font-size: 15px;
+  }
+
+  .div-4 {
+    font-size: 15px;
+  }
+
+  .div-5 {
+    font-size: 15px;
+  }
+
+  .div-6 {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-1 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-1:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-2 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-2:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-3 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-3:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-4 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-4:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-5 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-5:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-6 {
+    transition: transform 0.1s;
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 767px) {
+  .div-6:hover {
+    border-bottom: 1px solid red;
+    color: white;
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s;
+  }
+}
+/*------------SLIDERSHOW----------------*/
+.container {
+  background-color: rgba(245, 245, 245, 0.384);
+}
+
+.slider {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  height: 400px;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+/*--------------------HISTORIA---------------*/
+.historia-tittle, .nombre-patrocinadores, .nombre-filial {
+  font-family: "Racing Sans One", cursive;
+  text-align: center;
+}
+.historia-tittle:hover, .nombre-patrocinadores:hover, .nombre-filial:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.borde {
+  border-left: 3px solid rgba(129, 127, 127, 0.918);
+  height: 400px;
+}
+
+.Infor-gsport {
+  font-family: "Racing Sans One", cursive;
+  text-align: center;
+}
+
+.imagen-historia {
+  width: 100%;
+  border-radius: 2px;
+  transition: transform 0.3s;
+}
+
+.imagen-historia:hover {
+  transform: scale(0.9);
+}
+
+.texto-historia {
+  font-family: "Questrial", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/*---------------------Filiales-------------------*/
+.imagen-filial {
+  width: 100%;
+  border-radius: 2px;
+  transition: transform 0.3s;
+}
+
+.imagen-filial:hover {
+  transform: scale(0.9);
+}
+
+.nombre-filial:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.nombre-patrocinadores:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+/*Patrocionadores*/
+.img-moon {
+  width: 70%;
+}
+
+@media screen and (min-width: 992px) {
+  .imagenes-evaludos {
+    margin-top: 7rem;
+  }
+
+  .img-moon {
+    width: 80%;
+  }
+}
+.imagen {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.imagen:hover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer {
+  background-color: rgba(129, 127, 127, 0.918);
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+
+footer img {
+  width: 20%;
+}
+
+@media screen and (min-width: 767px) {
+  footer img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer img {
+    width: 32%;
+  }
+
+  .logo-footer {
+    width: 16%;
+    z-index: 999;
+    margin-bottom: -100px;
+  }
+}
+i {
+  transition: transform 0.2s;
+  width: 30%;
+  color: #5a5959;
+}
+
+i:hover {
+  transform: scale(0.9);
+  color: white;
+}
+
+footer img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+footer img:hover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer img:hover {
+  transform: scale(0.9);
+}
+
+.div-logo {
+  position: absolute;
+}
+
+.logo-footer {
+  width: 20%;
+  z-index: 999;
+  filter: grayscale(0%);
+}
+
+/*# sourceMappingURL=estilos.css.map */
